@@ -20,3 +20,5 @@ Route::get('departments', [\App\Http\Controllers\API\DepartmentController::class
 Route::post('priority/add', [\App\Http\Controllers\API\PriorityController::class, 'addPriority']);
 Route::get('priorities', [\App\Http\Controllers\API\PriorityController::class, 'getPriorities']);
 
+Route::post('ticket/add', [\App\Http\Controllers\API\TicketController::class, 'addTicket']);
+Route::get('tickets', [\App\Http\Controllers\API\TicketController::class, 'getTickets']);

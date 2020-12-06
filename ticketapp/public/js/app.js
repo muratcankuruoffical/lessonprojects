@@ -1930,9 +1930,150 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\resources\\js\\components\\Home.vue: Unexpected token (91:4)\n\n\u001b[0m \u001b[90m 89 | \u001b[39m    created() {\u001b[0m\n\u001b[0m \u001b[90m 90 | \u001b[39m        \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 92 | \u001b[39m    data() {\u001b[0m\n\u001b[0m \u001b[90m 93 | \u001b[39m        \u001b[36mreturn\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 94 | \u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:748:17)\n    at Parser.raiseWithData (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:741:17)\n    at Parser.raise (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.unexpected (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9097:16)\n    at Parser.parseIdentifierName (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11317:18)\n    at Parser.parseIdentifier (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11290:23)\n    at Parser.parseMaybePrivateName (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10618:19)\n    at Parser.parseMember (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10181:63)\n    at Parser.parseSubscript (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10169:19)\n    at Parser.parseSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10139:19)\n    at Parser.parseExprSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10128:17)\n    at Parser.parseUpdate (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10102:21)\n    at Parser.parseMaybeUnary (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10091:17)\n    at Parser.parseExprOps (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9961:23)\n    at Parser.parseMaybeConditional (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9935:23)\n    at Parser.parseMaybeAssign (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9898:21)\n    at Parser.parseExpressionBase (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9843:23)\n    at C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9837:39\n    at Parser.allowInAnd (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11515:16)\n    at Parser.parseExpression (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9837:17)\n    at Parser.parseStatementContent (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11781:23)\n    at Parser.parseStatement (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11650:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12232:25)\n    at Parser.parseBlockBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12218:10)\n    at Parser.parseBlock (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12202:10)\n    at Parser.parseFunctionBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11194:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11178:10)\n    at Parser.parseMethod (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11128:10)\n    at Parser.parseObjectMethod (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11057:19)\n    at Parser.parseObjPropValue (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11090:23)\n    at Parser.parsePropertyDefinition (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11014:10)\n    at Parser.parseObjectLike (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10904:25)\n    at Parser.parseExprAtom (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10464:23)\n    at Parser.parseExprSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10122:23)\n    at Parser.parseUpdate (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10102:21)\n    at Parser.parseMaybeUnary (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10091:17)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Home",
+  created: function created() {
+    this.getDepartments();
+    this.getPriorities();
+    this.getTickets();
+  },
+  data: function data() {
+    return {
+      departments: {},
+      priorities: {},
+      ticket: {},
+      tickets: {}
+    };
+  },
+  methods: {
+    getDepartments: function getDepartments() {
+      var _this = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('http://127.0.0.1:8000/api/departments').then(function (response) {
+        _this.departments = response.data.departments;
+      });
+    },
+    getPriorities: function getPriorities() {
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('http://127.0.0.1:8000/api/priorities').then(function (response) {
+        _this2.priorities = response.data.priorities;
+      });
+    },
+    addTicket: function addTicket() {
+      var _this3 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('http://127.0.0.1:8000/api/ticket/add', this.ticket).then(function (response) {
+        console.log(response);
+
+        if (response.status == 201) {
+          _this3.getTickets();
+        }
+      });
+    },
+    getTickets: function getTickets() {
+      var _this4 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('http://127.0.0.1:8000/api/tickets').then(function (response) {
+        _this4.tickets = response.data.tickets;
+        console.log(response.data);
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -19608,58 +19749,51 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "row mt-4" }, [
-        _c("div", { staticClass: "col-md-5" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header text-center" }, [
-              _vm._v("\n                    Ticket Form\n                ")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("form", [
-                _c("div", { staticClass: "form-group" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("label", { attrs: { for: "name" } }, [_vm._v("İsim")]),
-                      _vm._v(" "),
-                      _c("input", {
-                        staticClass: "form-control",
-                        attrs: { type: "text", id: "name", disabled: "" }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("label", { attrs: { for: "email" } }, [
-                        _vm._v("E-posta Adresi")
-                      ]),
-                      _vm._v(" "),
-                      _c("input", {
-                        staticClass: "form-control",
-                        attrs: {
-                          type: "text",
-                          id: "email",
-                          value: "muratcankuruoffical@gmail.com",
-                          disabled: ""
-                        }
-                      })
-                    ])
-                  ])
-                ]),
+  return _c("div", [
+    _c("div", { staticClass: "row mt-4" }, [
+      _c("div", { staticClass: "col-md-5" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-header text-center" }, [
+            _vm._v("\n                    Ticket Form\n                ")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.addTicket($event)
+                  }
+                }
+              },
+              [
+                _vm._m(0),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "title" } }, [_vm._v("Başlık")]),
                   _vm._v(" "),
                   _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.title,
+                        expression: "ticket.title"
+                      }
+                    ],
                     staticClass: "form-control",
-                    attrs: { type: "text", id: "title" }
+                    attrs: { type: "text", id: "title" },
+                    domProps: { value: _vm.ticket.title },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "title", $event.target.value)
+                      }
+                    }
                   })
                 ]),
                 _vm._v(" "),
@@ -19673,10 +19807,44 @@ var staticRenderFns = [
                       _c(
                         "select",
                         {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.ticket.department_id,
+                              expression: "ticket.department_id"
+                            }
+                          ],
                           staticClass: "form-control",
-                          attrs: { name: "", id: "department" }
+                          attrs: { name: "", id: "department" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.ticket,
+                                "department_id",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
                         },
-                        [_c("option", { attrs: { value: "" } }, [_vm._v("1")])]
+                        _vm._l(_vm.departments, function(department) {
+                          return _c(
+                            "option",
+                            { domProps: { value: department.id } },
+                            [_vm._v(_vm._s(department.name))]
+                          )
+                        }),
+                        0
                       )
                     ]),
                     _vm._v(" "),
@@ -19688,10 +19856,44 @@ var staticRenderFns = [
                       _c(
                         "select",
                         {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.ticket.priority_id,
+                              expression: "ticket.priority_id"
+                            }
+                          ],
                           staticClass: "form-control",
-                          attrs: { name: "", id: "priority" }
+                          attrs: { name: "", id: "priority" },
+                          on: {
+                            change: function($event) {
+                              var $$selectedVal = Array.prototype.filter
+                                .call($event.target.options, function(o) {
+                                  return o.selected
+                                })
+                                .map(function(o) {
+                                  var val = "_value" in o ? o._value : o.value
+                                  return val
+                                })
+                              _vm.$set(
+                                _vm.ticket,
+                                "priority_id",
+                                $event.target.multiple
+                                  ? $$selectedVal
+                                  : $$selectedVal[0]
+                              )
+                            }
+                          }
                         },
-                        [_c("option", { attrs: { value: "" } }, [_vm._v("1")])]
+                        _vm._l(_vm.priorities, function(priority) {
+                          return _c(
+                            "option",
+                            { domProps: { value: priority.id } },
+                            [_vm._v(_vm._s(priority.name))]
+                          )
+                        }),
+                        0
                       )
                     ])
                   ])
@@ -19701,60 +19903,140 @@ var staticRenderFns = [
                   _c("label", { attrs: { for: "message" } }, [_vm._v("Mesaj")]),
                   _vm._v(" "),
                   _c("textarea", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.ticket.message,
+                        expression: "ticket.message"
+                      }
+                    ],
                     staticClass: "form-control",
-                    attrs: { name: "", id: "message", cols: "30", rows: "10" }
+                    attrs: { name: "", id: "message", cols: "30", rows: "10" },
+                    domProps: { value: _vm.ticket.message },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.ticket, "message", $event.target.value)
+                      }
+                    }
                   })
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "text-center" }, [
-                  _c("button", { staticClass: "btn btn-light border" }, [
-                    _vm._v("Gönder")
-                  ])
-                ])
-              ])
-            ])
+                _vm._m(1)
+              ]
+            )
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-7" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header text-center" }, [
-              _vm._v("\n                    Ticket List\n                ")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("table", { staticClass: "table table-bordered text-center" }, [
-                _c("thead", [
-                  _c("th", [_vm._v("Departman")]),
-                  _vm._v(" "),
-                  _c("th", [_vm._v("Başlık")]),
-                  _vm._v(" "),
-                  _c("th", [_vm._v("Durum")]),
-                  _vm._v(" "),
-                  _c("th", [_vm._v("Son Güncelleme")])
-                ]),
-                _vm._v(" "),
-                _c("tbody", [
-                  _c("tr", [
-                    _c("td"),
-                    _vm._v(" "),
-                    _c("td"),
-                    _vm._v(" "),
-                    _c("td", [
-                      _c(
-                        "span",
-                        { staticClass: "badge badge-pill badge-success p-2" },
-                        [_vm._v("Aktif")]
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("td")
-                  ])
-                ])
-              ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-7" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-header text-center" }, [
+            _vm._v("\n                    Ticket List\n                ")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _c("table", { staticClass: "table table-bordered text-center" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _c(
+                "tbody",
+                _vm._l(_vm.tickets, function(ticket) {
+                  return _c(
+                    "tr",
+                    [
+                      _vm._l(ticket.departments, function(department) {
+                        return _c("td", [
+                          _vm._v(
+                            "\n                                " +
+                              _vm._s(department.name) +
+                              "\n                            "
+                          )
+                        ])
+                      }),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(ticket.title))]),
+                      _vm._v(" "),
+                      _vm._m(3, true),
+                      _vm._v(" "),
+                      _c("td", [_vm._v(_vm._s(ticket.updated_at))])
+                    ],
+                    2
+                  )
+                }),
+                0
+              )
             ])
           ])
         ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("label", { attrs: { for: "name" } }, [_vm._v("İsim")]),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "form-control",
+            attrs: { type: "text", id: "name", disabled: "" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("label", { attrs: { for: "email" } }, [_vm._v("E-posta Adresi")]),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "form-control",
+            attrs: {
+              type: "text",
+              id: "email",
+              value: "muratcankuruoffical@gmail.com",
+              disabled: ""
+            }
+          })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-center" }, [
+      _c("button", { staticClass: "btn btn-light border" }, [_vm._v("Gönder")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("th", [_vm._v("Departman")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Başlık")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Durum")]),
+      _vm._v(" "),
+      _c("th", [_vm._v("Son Güncelleme")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", [
+      _c("span", { staticClass: "badge badge-pill badge-success p-2" }, [
+        _vm._v("Aktif")
       ])
     ])
   }

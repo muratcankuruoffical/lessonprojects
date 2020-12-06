@@ -15,10 +15,6 @@ class CreateTicketsTable extends Migration
     {
         Schema::create('tickets', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('department_id');
-            $table->unsignedBigInteger('priority_id');
-            $table->foreign('department_id')->references('id')->on('departments');
-            $table->foreign('priority_id')->references('id')->on('priorities');
             $table->string('title');
             $table->text('message');
             $table->timestamps();
