@@ -19705,7 +19705,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "row mt-4" }, [
-        _c("div", { staticClass: "col-md-6" }, [
+        _c("div", { staticClass: "col-md-5" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header text-center" }, [
               _vm._v("\n                    Ticket Form\n                ")
@@ -19804,7 +19804,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
+        _c("div", { staticClass: "col-md-7" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header text-center" }, [
               _vm._v("\n                    Ticket List\n                ")

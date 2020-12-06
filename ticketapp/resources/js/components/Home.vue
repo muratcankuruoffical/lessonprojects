@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row mt-4">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="card">
                     <div class="card-header text-center">
                         Ticket Form
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="card">
                     <div class="card-header text-center">
                         Ticket List

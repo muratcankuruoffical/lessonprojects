@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
+Route::post('department/add', [\App\Http\Controllers\API\DepartmentController::class, 'addDepartment']);
+Route::post('priority/add', [\App\Http\Controllers\API\DepartmentController::class, 'addDepartment']);
+
