@@ -83,8 +83,25 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
-name: "Home"
+    name: "Home",
+    created() {
+        this.
+    },
+    data() {
+        return {
+
+        }
+    },
+    methods: {
+        getDepartments(){
+            axios.get('http://127.0.0.1:8000/api/departments')
+            .then((response) =>{
+                console.log(response.data)
+            })
+        }
+    }
 }
 </script>
 

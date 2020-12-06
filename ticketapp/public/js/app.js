@@ -1930,97 +1930,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Home"
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\resources\\js\\components\\Home.vue: Unexpected token (91:4)\n\n\u001b[0m \u001b[90m 89 | \u001b[39m    created() {\u001b[0m\n\u001b[0m \u001b[90m 90 | \u001b[39m        \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 91 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 92 | \u001b[39m    data() {\u001b[0m\n\u001b[0m \u001b[90m 93 | \u001b[39m        \u001b[36mreturn\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 94 | \u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:748:17)\n    at Parser.raiseWithData (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:741:17)\n    at Parser.raise (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.unexpected (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9097:16)\n    at Parser.parseIdentifierName (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11317:18)\n    at Parser.parseIdentifier (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11290:23)\n    at Parser.parseMaybePrivateName (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10618:19)\n    at Parser.parseMember (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10181:63)\n    at Parser.parseSubscript (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10169:19)\n    at Parser.parseSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10139:19)\n    at Parser.parseExprSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10128:17)\n    at Parser.parseUpdate (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10102:21)\n    at Parser.parseMaybeUnary (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10091:17)\n    at Parser.parseExprOps (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9961:23)\n    at Parser.parseMaybeConditional (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9935:23)\n    at Parser.parseMaybeAssign (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9898:21)\n    at Parser.parseExpressionBase (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9843:23)\n    at C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9837:39\n    at Parser.allowInAnd (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11515:16)\n    at Parser.parseExpression (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:9837:17)\n    at Parser.parseStatementContent (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11781:23)\n    at Parser.parseStatement (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11650:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12232:25)\n    at Parser.parseBlockBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12218:10)\n    at Parser.parseBlock (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:12202:10)\n    at Parser.parseFunctionBody (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11194:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11178:10)\n    at Parser.parseMethod (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11128:10)\n    at Parser.parseObjectMethod (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11057:19)\n    at Parser.parseObjPropValue (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11090:23)\n    at Parser.parsePropertyDefinition (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:11014:10)\n    at Parser.parseObjectLike (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10904:25)\n    at Parser.parseExprAtom (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10464:23)\n    at Parser.parseExprSubscripts (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10122:23)\n    at Parser.parseUpdate (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10102:21)\n    at Parser.parseMaybeUnary (C:\\Users\\murat\\Desktop\\lessonprojects\\ticketapp\\node_modules\\@babel\\parser\\lib\\index.js:10091:17)");
 
 /***/ }),
 
