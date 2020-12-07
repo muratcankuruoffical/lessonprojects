@@ -57,7 +57,26 @@
                         Ticket List
                     </div>
                     <div class="card-body">
-                        <table class="table table-bordered text-center">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <select name="" id="" class="form-control" v-model="department_id">
+                                    <option v-for="department in departments" :value="department.id">{{ department.name }}</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select name="" id="" class="form-control" v-model="sort_field">
+                                    <option value="title">Title</option>
+                                    <option value="created_at">Created at</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select name="" id="" class="form-control" v-model="sort_direction">
+                                    <option value="asc">ASC</option>
+                                    <option value="desc">DESC</option>
+                                </select>
+                            </div>
+                        </div>
+                        <table class="table table-bordered text-center mt-2">
                             <thead>
                             <th>Departman</th>
                             <th>Başlık</th>
@@ -95,11 +114,19 @@ export default {
     },
     data() {
         return {
+            department_id : "",
+            sort_field : "",
+            sort_direction : "",
             departments : {},
             priorities : {},
             ticket : {},
             tickets : {}
         }
+    },
+    watch:{
+        department_id(value) { this.getTickets(); },
+        sort_field(value) { this.getTickets(); },
+        sort_direction(value) { this.getTickets(); }
     },
     methods: {
         getDepartments(){
@@ -124,13 +151,17 @@ export default {
             })
         },
         getTickets(){
-            axios.get('http://127.0.0.1:8000/api/tickets')
+            axios.post('http://127.0.0.1:8000/api/tickets', {
+                department_id : this.department_id,
+                sort_field : this.sort_field,
+                sort_direction : this.sort_direction
+            })
             .then((response) => {
                 this.tickets = response.data.tickets
                 console.log(response.data)
             })
-        }
-    }
+        },
+    },
 }
 </script>
 

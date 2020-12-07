@@ -2022,6 +2022,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Home",
@@ -2032,11 +2051,25 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
+      department_id: "",
+      sort_field: "",
+      sort_direction: "",
       departments: {},
       priorities: {},
       ticket: {},
       tickets: {}
     };
+  },
+  watch: {
+    department_id: function department_id(value) {
+      this.getTickets();
+    },
+    sort_field: function sort_field(value) {
+      this.getTickets();
+    },
+    sort_direction: function sort_direction(value) {
+      this.getTickets();
+    }
   },
   methods: {
     getDepartments: function getDepartments() {
@@ -2067,7 +2100,11 @@ __webpack_require__.r(__webpack_exports__);
     getTickets: function getTickets() {
       var _this4 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('http://127.0.0.1:8000/api/tickets').then(function (response) {
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('http://127.0.0.1:8000/api/tickets', {
+        department_id: this.department_id,
+        sort_field: this.sort_field,
+        sort_direction: this.sort_direction
+      }).then(function (response) {
         _this4.tickets = response.data.tickets;
         console.log(response.data);
       });
@@ -19939,37 +19976,164 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
-            _c("table", { staticClass: "table table-bordered text-center" }, [
-              _vm._m(2),
-              _vm._v(" "),
-              _c(
-                "tbody",
-                _vm._l(_vm.tickets, function(ticket) {
-                  return _c(
-                    "tr",
-                    [
-                      _vm._l(ticket.departments, function(department) {
-                        return _c("td", [
-                          _vm._v(
-                            "\n                                " +
-                              _vm._s(department.name) +
-                              "\n                            "
-                          )
-                        ])
-                      }),
-                      _vm._v(" "),
-                      _c("td", [_vm._v(_vm._s(ticket.title))]),
-                      _vm._v(" "),
-                      _vm._m(3, true),
-                      _vm._v(" "),
-                      _c("td", [_vm._v(_vm._s(ticket.updated_at))])
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "select",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.department_id,
+                        expression: "department_id"
+                      }
                     ],
-                    2
-                  )
-                }),
-                0
-              )
-            ])
+                    staticClass: "form-control",
+                    attrs: { name: "", id: "" },
+                    on: {
+                      change: function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.department_id = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      }
+                    }
+                  },
+                  _vm._l(_vm.departments, function(department) {
+                    return _c(
+                      "option",
+                      { domProps: { value: department.id } },
+                      [_vm._v(_vm._s(department.name))]
+                    )
+                  }),
+                  0
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "select",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.sort_field,
+                        expression: "sort_field"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { name: "", id: "" },
+                    on: {
+                      change: function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.sort_field = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      }
+                    }
+                  },
+                  [
+                    _c("option", { attrs: { value: "title" } }, [
+                      _vm._v("Title")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "created_at" } }, [
+                      _vm._v("Created at")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4" }, [
+                _c(
+                  "select",
+                  {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.sort_direction,
+                        expression: "sort_direction"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { name: "", id: "" },
+                    on: {
+                      change: function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.sort_direction = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      }
+                    }
+                  },
+                  [
+                    _c("option", { attrs: { value: "asc" } }, [_vm._v("ASC")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "desc" } }, [_vm._v("DESC")])
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "table",
+              { staticClass: "table table-bordered text-center mt-2" },
+              [
+                _vm._m(2),
+                _vm._v(" "),
+                _c(
+                  "tbody",
+                  _vm._l(_vm.tickets, function(ticket) {
+                    return _c(
+                      "tr",
+                      [
+                        _vm._l(ticket.departments, function(department) {
+                          return _c("td", [
+                            _vm._v(
+                              "\n                                " +
+                                _vm._s(department.name) +
+                                "\n                            "
+                            )
+                          ])
+                        }),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ticket.title))]),
+                        _vm._v(" "),
+                        _vm._m(3, true),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ticket.updated_at))])
+                      ],
+                      2
+                    )
+                  }),
+                  0
+                )
+              ]
+            )
           ])
         ])
       ])
